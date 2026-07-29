@@ -24,12 +24,23 @@
 
 
 .contact-item{
-    margin:20px 0;
+    margin:18px 0;
     display:flex;
     flex-direction:column;
-    gap:5px;
+    gap:8px;
 }
 
+.contact-item strong{
+    display:block;
+    color:#38BDF8;
+    font-size:0.95rem;
+    letter-spacing:0.3px;
+}
+
+.contact-item span{
+    color:#e2e8f0;
+    font-size:1rem;
+}
 
 .social-links{
     display:flex;

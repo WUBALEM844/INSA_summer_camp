@@ -44,11 +44,18 @@ function Contact() {
 
           <div className="contact-item">
             <strong>Email:</strong>
-            <span>
-              wubalemgashaw@gmail.com
-            </span>
+            <span>wubalemgashaw@gmail.com</span>
           </div>
 
+          <div className="contact-item">
+            <strong>Phone:</strong>
+            <span>+251 964 494 233</span>
+          </div>
+
+          <div className="contact-item">
+            <strong>Location:</strong>
+            <span>Wolkite, Southern Nations, Ethiopia</span>
+          </div>
 
           <div className="social-links">
 
