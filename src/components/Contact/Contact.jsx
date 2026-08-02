@@ -27,20 +27,13 @@ function Contact() {
 
 
       <div className="contact-container">
-
-
-        <div className="contact-info">
-
-          <h3>
-            Let's Work Together
-          </h3>
+        <div className="contact-card contact-info">
+          <h3>Let's Work Together</h3>
 
           <p>
-            I am interested in frontend development,
-            full-stack projects, and creating modern
-            web applications.
+            I am interested in frontend development, full-stack projects, and
+            creating modern web applications that feel polished and useful.
           </p>
-
 
           <div className="contact-item">
             <strong>Email:</strong>
@@ -58,8 +51,7 @@ function Contact() {
           </div>
 
           <div className="social-links">
-
-            <a 
+            <a
               href="https://github.com/WUBALEM844"
               target="_blank"
               rel="noreferrer"
@@ -67,22 +59,17 @@ function Contact() {
               GitHub
             </a>
 
-
-            <a href="https://www.linkedin.com/in/wubalem-gashaw-ba4a37362//" target="_blank" rel="noreferrer"    >
+            <a
+              href="https://www.linkedin.com/in/wubalem-gashaw-ba4a37362/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
-
           </div>
-
-
         </div>
 
-
-
-        <form 
-          className="contact-form"
-          onSubmit={handleSubmit}
-        >
+        <form className="contact-card contact-form" onSubmit={handleSubmit}>
 
           <input
             type="text"

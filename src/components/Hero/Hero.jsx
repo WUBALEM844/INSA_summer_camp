@@ -9,7 +9,7 @@ function Hero() {
 
         <div className="hero-text">
 
-          <p className="greeting">Hello, I'm 👋</p>
+          <p className="greeting">Hello, I'm </p>
 
           <h1>Wubalem Gashaw</h1>
 

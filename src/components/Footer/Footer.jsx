@@ -14,15 +14,7 @@ function Footer() {
           <p>Frontend & Full Stack Developer</p>
         </div>
 
-        <div className="footer-links">
-          <h3>Quick Links</h3>
-
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
+       
 
         <div className="footer-social">
           <h3>Connect</h3>
