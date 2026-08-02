@@ -28,10 +28,36 @@
 .certificate-preview{
     width:100%;
     height:220px;
-    border:none;
     border-radius:10px;
     margin-bottom:16px;
     background:var(--bg-soft);
+    border:1px solid var(--border);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    overflow:hidden;
+}
+
+.certificate-preview-placeholder{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    text-align:center;
+    padding:20px;
+    color:var(--text-main);
+}
+
+.certificate-title{
+    font-weight:700;
+    color:var(--accent);
+}
+
+.certificate-view-label{
+    color:var(--text-muted);
+    font-size:0.95rem;
 }
 
 .certificate-link{

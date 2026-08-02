@@ -4,15 +4,15 @@ const certifications = [
     title: "Data Science and Analysis",
     issuer: "Five Million Ethiopian Coders",
     year: "2025",
-    description: "Comprehensive program covering HTML, CSS, JavaScript, React, Node.js, and databases.",
+    description: "Comprehensive program covering data science fundamentals, statistics, and practical analysis projects.",
     pdf: "/data%20seince.pdf",
   },
   {
     id: 2,
-    title: "Introduction to python Programming",
+    title: "Introduction to Python Programming",
     issuer: "Red Hat",
     year: "2024",
-    description: "Linux system administration skills including user management, storage, and networking.",
+    description: "Foundational course covering Python syntax, data structures, control flow, and scripting fundamentals.",
     pdf: "/Python.pdf",
   },
   {

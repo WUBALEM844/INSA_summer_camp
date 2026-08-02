@@ -18,9 +18,15 @@ function Navbar({ theme, toggleTheme }) {
             <li><a href="#contact">Contact</a></li>
           </ul>
 
-          <button className="theme-toggle" onClick={toggleTheme} type="button">
-            {theme === "dark" ? <FaSun /> : <FaMoon />}
-            <span>{theme === "dark" ? "Light" : "Dark"}</span>
+          <button
+            className="theme-toggle"
+            onClick={toggleTheme}
+            type="button"
+            role="switch"
+            aria-label="Toggle color theme"
+            aria-checked={theme === "dark"}
+          >
+            {theme === "dark" ? <FaSun aria-hidden="true" /> : <FaMoon aria-hidden="true" />}
           </button>
         </div>
       </div>

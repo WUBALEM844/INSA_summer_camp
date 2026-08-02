@@ -72,3 +72,7 @@ img {
   font-size: clamp(2rem, 2.6vw, 2.8rem);
   color: var(--text-main);
 }
+
+.section-title + * {
+  margin-top: 0;
+}

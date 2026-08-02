@@ -9,12 +9,17 @@ function Certifications() {
       <div className="certification-grid">
         {certifications.map((certificate) => (
           <div className="certificate-card" key={certificate.id}>
-            <iframe
+            <a
               className="certificate-preview"
-              src={certificate.pdf}
-              title={certificate.title}
-              loading="lazy"
-            />
+              href={certificate.pdf}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="certificate-preview-placeholder">
+                <span className="certificate-title">{certificate.title}</span>
+                <span className="certificate-view-label">View certificate</span>
+              </div>
+            </a>
 
             <h3>{certificate.title}</h3>
 
@@ -28,7 +33,7 @@ function Certifications() {
               className="certificate-link"
               href={certificate.pdf}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Open PDF
             </a>
