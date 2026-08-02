@@ -1,22 +1,34 @@
+import { FaMoon, FaSun } from "react-icons/fa";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar({ theme, toggleTheme }) {
   return (
     <nav className="navbar">
       <div className="container">
-
         <div className="logo">
-          <h2>Wubalem.</h2>
+          <h2>WG.</h2>
         </div>
 
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div className="nav-actions">
+          <ul className="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
 
+          <button
+            className="theme-toggle"
+            onClick={toggleTheme}
+            type="button"
+            role="switch"
+            aria-label="Toggle color theme"
+            aria-checked={theme === "dark"}
+          >
+            {theme === "dark" ? <FaSun aria-hidden="true" /> : <FaMoon aria-hidden="true" />}
+          </button>
+        </div>
       </div>
     </nav>
   );

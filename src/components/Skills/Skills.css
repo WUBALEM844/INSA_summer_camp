@@ -15,10 +15,12 @@
 }
 
 .skill-card{
-    background:#1E293B;
+    background:var(--bg-surface);
+    border:1px solid var(--border);
     padding:30px;
     border-radius:15px;
     transition:.3s;
+    box-shadow:0 10px 30px var(--shadow);
 }
 
 .skill-card:hover{
@@ -26,7 +28,7 @@
 }
 
 .skill-card h3{
-    color:#38BDF8;
+    color:var(--accent);
     margin-bottom:20px;
 }
 
@@ -38,10 +40,10 @@
 }
 
 .icon{
-    color:#38BDF8;
+    color:var(--accent);
     font-size:1.6rem;
 }
 
 .skill-item span{
-    color:#fff;
+    color:var(--text-main);
 }
